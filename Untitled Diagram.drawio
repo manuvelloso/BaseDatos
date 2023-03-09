@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T15:04:50.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="PiilDoU97zPMDXff3pea" version="15.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-09T15:14:05.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="KsPUClAF3MNzhiQ0gyUE" version="15.2.9" type="github" pages="2">
   <diagram id="CXdzvPB2wVIydzKd_ate" name="Page-1">
     <mxGraphModel dx="895" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sk8-NcH3_kJpbmu6b2MK" name="Page-2">
-    <mxGraphModel dx="1492" dy="2420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="lREAkdYt76eSDly8mNPN-0" />
         <mxCell id="lREAkdYt76eSDly8mNPN-1" parent="lREAkdYt76eSDly8mNPN-0" />
@@ -108,7 +108,7 @@
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-0" value="plato" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-34">
           <mxGeometry width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NG0mI11uhFQM5UhzqjQ7-1" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-34">
+        <mxCell id="NG0mI11uhFQM5UhzqjQ7-1" value="&lt;u&gt;nombre&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-34">
           <mxGeometry x="10" y="60" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-2" value="descripción" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-34">
@@ -135,7 +135,7 @@
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-28" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-35">
           <mxGeometry x="10" y="60" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NG0mI11uhFQM5UhzqjQ7-29" value="DNI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-35">
+        <mxCell id="NG0mI11uhFQM5UhzqjQ7-29" value="&lt;u&gt;DNI&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-35">
           <mxGeometry x="10" y="130" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-36" value="" style="group" vertex="1" connectable="0" parent="lREAkdYt76eSDly8mNPN-1">
@@ -144,7 +144,7 @@
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-7" value="bebida" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-36">
           <mxGeometry width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NG0mI11uhFQM5UhzqjQ7-22" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-36">
+        <mxCell id="NG0mI11uhFQM5UhzqjQ7-22" value="&lt;u&gt;nombre&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-36">
           <mxGeometry x="10" y="60" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NG0mI11uhFQM5UhzqjQ7-23" value="marca" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NG0mI11uhFQM5UhzqjQ7-36">
