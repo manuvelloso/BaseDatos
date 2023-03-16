@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T00:03:05.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y_zzsJ6R3Wt-wL1NhS5S" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-16T00:03:44.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="p_eUG_YP2WGEGyeRjAye" version="21.0.6" type="github" pages="4">
   <diagram name="Ejercicio 1" id="W7mZBV3wvUi-HdEp20qj">
     <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -277,7 +277,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ycP45Ro-O0JtJTve5azq" name="Ejercicio 3">
-    <mxGraphModel dx="1120" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,6 +504,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-znDUMtkjLRXIHzYBNxi" name="Ejercicio 4">
+    <mxGraphModel dx="1120" dy="494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
