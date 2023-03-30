@@ -1,0 +1,39 @@
+Ejercicio 3 - AR 
+/* a) Listar todos los clientes de la CABA, ordenados alfabéticamente.*/
+
+πCliNom(τCliNom(σCliDireccon='CABA'(CLIENTES)))
+
+/* pi: proyectar -> selecciona dato de interes
+  tau: ordena segun criterio
+sigma: toma las filas que cumplen con la condición */
+
+/* b) Listar los proveedores de ítems con órdenes por más de 30 unidades.*/
+
+πOrden,ProvNom,Item,Cantidad(σCantidad>30(ORDENES⨝PROVEEDORES))
+
+/* pi: proyectar -> selecciona dato de interes (solo aparece orden nombrem, item, cantidad)
+sigma: ordena segun criterio
+nat join: encontrar items de igual valor */
+
+/* c) Listar los clientes que ordenaron más de 15 lámparas*/
+πCliNom,Orden(σCantidad>15 and (Item='Lampara Led 60W' or Item='Lampara Led 15W' or Item='Lampara 40W')(ORDENES))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 3 - SQL 
+/* a) Listar todos los clientes de la CABA, ordenados alfabéticamente.*/
+
+select CliNom, CliSaldo 
+from CLIENTES as C 
+where C.CliDireccon like 'CABA'
+order by CliNom
+
+/* b) Listar los proveedores de ítems con órdenes por más de 30 unidades.*/
+select ProvNom,Orden,Item,Cantidad
+from ORDENES as O natural join PROVEEDORES
+where O.Cantidad>30
+
+/* c) Listar los clientes que ordenaron más de 15 lámparas*/
+select CliNom,Orden,Cantidad
+from ORDENES as O
+where O.Item like 'Lampara%' and O.Cantidad>15
