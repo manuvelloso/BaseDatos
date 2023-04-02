@@ -1,0 +1,12 @@
+/* 
+PERSONA (Nombre, Apellido, DNI, Sexo, FechaNac),
+ENFERMEDAD (DNI, Enfermedad, FechaInicio, FechaFin)
+*/
+
+/* 
+a. Mostrar cuál es la enfermedad más común para las personas mayores de 70 años.
+b. Mostrar cuál es la enfermedad pediátrica (0-18 años) que más se diagnosticó durante 2021. */
+
+πenfermedad (σFechaNac.anio<=(hoy.anio-70)(PERSONA⨝ENFERMEDAD)) /* acá estoy mostrando todas las enfermedades... como muestro LA MÁS común?*/
+
+πenfermedad (σFechaNac.anio>=(hoy.anio-18) (PERSONA⨝ENFERMEDAD)) /*idem a)*/
