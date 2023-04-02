@@ -1,0 +1,29 @@
+/* 
+ELEMENTO (e#, descripcion, costo)
+PARTE_DE (e#, e1#), donde e1# es un componente de e#.
+PROVEE (p#, e#)
+PROVEEDOR (p#, nombre, domicilio)  */
+
+/* 
+a. Listar los códigos de los elementos que sean partes de un AUTO y que cuesten más de $15.000
+b. Listar los códigos de los elementos que sean provistos por AUTOPARTES SA
+c. Listar los códigos de los elementos que sean provistos por algún proveedor del barrio de Congreso
+d. Listar los códigos de los elementos que sean provistos sólo por AUTOPARTES SA */
+
+πe#(σdescripcion = 'AUTO' and costo > 15000 (ELEMENTO ⨝ PARTE_DE))
+/*
+pi: proyección de solo los códigos de los elementos (me quedo con solo la columna de codigos)
+sigma: me quedo con las filas que cumplen con la condición
+junta: combino ambas tablas por medio del codigo de los elementos (me queda una tabla grande y de ahi selecciono) */
+			
+πe# (σnombre = 'AUTOPARTES SA'(PROVEE ⨝ PROVEEDOR))
+/* pi: proyección de solo los códigos de los elementos (me quedo con solo la columna de codigos)
+sigma: me quedo con las filas que cumplen con la condición de que el proveedor sea de Autopartes SA
+junta: combino ambas tablas por medio del codigo de los proveedores (me queda una tabla grande y de ahi selecciono) */
+
+πe# (σdomicilio = 'Congreso'(PROVEE ⨝ PROVEEDOR))
+/* pi: proyección de solo los códigos de los elementos (me quedo con solo la columna de codigos)
+sigma: me quedo con las filas que cumplen con la condición de que el proveedor sea de congreso
+junta: combino ambas tablas por medio del codigo de los proveedores (me queda una tabla grande y de ahi selecciono) */
+
+/* Cual sería la diferencia entre el b y el d?*/
