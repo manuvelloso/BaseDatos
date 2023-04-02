@@ -1,0 +1,9 @@
+/* 
+ARTICULO = (Art#, ArtNom)
+VENDEDOR = (Vende#, VendeNombre)
+PRECIO = (Art#, Vende#, Valor, Desde, Hasta)
+*/
+
+/* 
+a. Obtener los nombres de los vendedores que más artículos vendieron durante agosto de 2021.
+b. Obtener el menor y el mayor precio del artículo X durante el año 2021.  */
