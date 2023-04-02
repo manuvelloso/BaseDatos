@@ -1,0 +1,15 @@
+/* 
+PERSONA (Nombre, Sexo, FechaNac, NombreMadre, NombrePadre)
+MATRIMONIO (Nombre1, Nombre2, FechaRealización, FechaFin)
+Se asume que dos personas pueden contraer matrimonio entre sí más de una vez.
+¿Hay problemas de ambigüedad con este modelo relacional? Si así fuera corríjalo.  */
+
+/* 
+El problema de ambiguedad que habría es que una persona se puede casar con ella misma
+Si el matrimonio sigue no tiene fecha de fin */
+
+/* 
+a. Listar las personas que hayan tenido algún hijo en su primer matrimonio.
+b. Listar los nombres de los hijos primogénitos de cada matrimonio.
+c. Mostrar todos los nombres de todos los hombres nacidos en 1970 que se casaron más de una vez. */
+
