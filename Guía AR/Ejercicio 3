@@ -1,4 +1,4 @@
-Ejercicio 3 - AR 
+Ejercicio 3 - AR
 /* a) Listar todos los clientes de la CABA, ordenados alfabéticamente.*/
 
 πCliNom(τCliNom(σCliDireccon='CABA'(CLIENTES)))
