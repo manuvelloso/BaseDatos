@@ -7,3 +7,36 @@ PRECIO = (Art#, Vende#, Valor, Desde, Hasta)
 /* 
 a. Obtener los nombres de los vendedores que más artículos vendieron durante agosto de 2021.
 b. Obtener el menor y el mayor precio del artículo X durante el año 2021.  */
+
+/* 
+la condición es que desde = '01-08-2021' y hasta = '31-08-2021'
+debo juntar las tablas precio y vendedor
+ordenarlas segun el contador de vende*/
+
+πVendeNombre(
+             τMejorVendedor(
+                             γ(Vende#, count(VendeNombre) as MejorVendedor)(
+                             σ(Desde='01-08-2021' and Hasta = '31-08-2021')(VENDEDOR⨝PRECIO))
+                             )
+            )
+
+/* 
+
+------ EJEMPLO SELECCIÓN FILAS -----
+π IdVenta, Fecha, MontoVenta (σ IdVenta IN (SELECT MIN(IdVenta) FROM Ventas UNION SELECT MAX(IdVenta) FROM Ventas)) (Ventas)
+
+π: operador de proyección, que selecciona solo las columnas de la tabla que se especifican
+σ: operador de selección, que filtra las filas de la tabla que cumplan la condición especificada
+IdVenta: columna que contiene el identificador único de cada venta
+
+menor y mayor precio -> ordenar por valor => me quedo solo con la primera y ultima fila (COMO HAGO ESTOOO)
+junta entre artículo y precio
+*/
+
+π Valor, Desde, Hasta(
+                     σ Valor in(select min(Valor) from "la tabla resultante" union select max(Valor) from "la tabla resultante"
+        σ(ArtNom=='X' and year(Desde)==2021 and year(Hasta)==2021)(ARTICULO⨝PRECIO)  //ACA TENGO MIS DUDAS!!
+      )
+
+
+           
