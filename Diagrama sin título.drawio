@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T15:11:02.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cFj-fE4Aa5GwqZwNUD3I" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T15:14:43.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dPMp1VBrJBIw4Bb4Rb0B" version="21.1.1" type="github">
   <diagram name="Página-1" id="UnZ4PWPG2ShkcQ402A7c">
-    <mxGraphModel dx="1120" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2036" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -362,6 +362,9 @@
         </mxCell>
         <mxCell id="7tXcXWrHPfZ0aU3fu_mt-119" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1875" y="870" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7tXcXWrHPfZ0aU3fu_mt-123" value="&lt;b&gt;CANJEAR PUNTOS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="490" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
