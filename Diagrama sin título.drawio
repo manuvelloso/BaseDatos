@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T14:44:14.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DOE3ATaswaG6z0LNu2Fv" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T14:45:54.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HJ-sMogjxFeqzehQNc3V" version="21.1.1" type="github">
   <diagram name="Página-1" id="UnZ4PWPG2ShkcQ402A7c">
     <mxGraphModel dx="1120" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7tXcXWrHPfZ0aU3fu_mt-36" value="&lt;b&gt;DIAGRAMA DE ACTIVIDADES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="397.5" y="30" width="205" height="30" as="geometry" />
+          <mxGeometry x="397.5" y="40" width="205" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7tXcXWrHPfZ0aU3fu_mt-37" value="Computar puntos" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1300" y="80" width="130" height="35" as="geometry" />
@@ -196,6 +196,9 @@
         </mxCell>
         <mxCell id="7tXcXWrHPfZ0aU3fu_mt-62" value="Cocina debe &lt;br&gt;estar funcionando" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="400" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7tXcXWrHPfZ0aU3fu_mt-65" value="&lt;b&gt;DIAGRAMA DE OBJETIVOS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1262.5" y="40" width="205" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
