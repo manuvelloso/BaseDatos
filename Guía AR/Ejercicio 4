@@ -1,1 +1,16 @@
+MIEMBRO (Miembro#, Apellido, Nombre, Especialidad)
+EVENTO (Eve#, Especialidad, EveNombre, Comienzo, Duración, LimiteInscripción, CupoMínimo, Auditorio#)
+AUDITORIO (Auditorio#, AuditorioNombre, Dirección, Localidad, Capacidad, DisponibleDesde, DisponibleHasta)
+PARTICIPA (Miembro#, Eve#)
+ORGANIZA (Miembro#, Eve#)
+
+* Los miembros participan, organizan eventos o ambas cosas.
+Comienzo, LimiteInscripción, DisponibleDesde y DisponibleHasta son fechas.
+
+a. Obtener todos los datos de los organizadores que no participan de ningún evento.
+b. Mostrar los eventos que sean posibles de realizar y que traten de temas médicos (tener en cuenta cupo mínimo y cantidad de inscriptos).
+c. Obtener los datos de los cursos que deben suspenderse por falta de quórum. Asumir la existencia de una función TODAY() que devuelve la fecha del sistema.
+d. Mostrar en qué auditorio se puede realizar un evento para 500 personas.
+e. Mostrar los eventos que no se efectuaron durante 2021 por no cubrir el cupo mínimo
+f. Mostrar los auditorios que fueron los más utilizados durante 2021.
 
