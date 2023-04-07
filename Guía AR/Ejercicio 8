@@ -1,1 +1,20 @@
+CUENTA (Cuenta#, FechaAlta)
+TITULAR (Cuenta#, TipoDoc, NumeroDoc)
+PERSONA (TipoDoc, NumeroDoc, Nombre, Domicilio, Telefono, Mail)
+INHABILITADO (TipoDoc, NumeroDoc, Nombre, FechaInicio, FechaVencimiento)
+EVOLUCIONSALDO (Cuenta#, FechaVigencia, Saldo)
 
+Se cumplen las siguientes restricciones de integridad referencial:
+· Titular(Cuenta#) → Cuenta
+· EvolucionSaldo(Cuenta#) → Cuenta
+· Titular(TipoDoc, NumeroDoc) → Persona
+
+Cada cuenta puede tener una o más personas titulares.
+EvolucionSaldo contiene los saldos de las cuentas en el plazo que comienza en FechaVigencia hasta la FechaVigencia más próxima registrada para la misma cuenta.
+Inhabilitado almacena todas las personas inhabilitadas de operar en el país con cuentas bancarias dentro de las fechas FechaInicio y FechaVencimiento.
+
+Una persona puede estar inhabilitada más de una vez, pero los plazos de inhabilitación nunca se solapan entre sí para la misma persona.
+
+a. Obtener los números de las cuentas con saldo negativo el día 27 de marzo de 2022 que tengan todos sus titulares inhabilitados.
+b. Obtener los números de las cuentas con saldo mayor a 100 mil pesos, pero con algún titular inhabilitado, a fecha de hoy.
+c. Mostrar la cuenta que tuvo el saldo más alto en agosto de 2021, y que ninguno de sus titulares estuvieran inhabilitados.
