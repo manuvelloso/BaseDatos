@@ -1,1 +1,102 @@
+FRECUENTA (Persona, Bar)
+SIRVE (Bar, Cerveza)
+GUSTA (Persona, Cerveza).
+
+π σ ρ τ γ ⨝
+
+---------------------------------- (a) ----------------------------------
+/*
+a. Bares que sirven alguna cerveza que le guste a ‘Juan Pérez’
+Condiciones:
+- alguna -> al menos una -> Cerveza != NULL
+- Persona = 'Juan Pérez'
+*/
+
+πBar(σCerveza != NULL(SIRVE⨝(σPersona = 'Juan Pérez'(GUSTA)))) //en la solución no esta incluido el null, hace falta?
+  
+---------------------------------- (b) ----------------------------------
+/*
+b. Personas que frecuentan al menos un bar que sirve alguna cerveza que les guste.
+Condiciones:
+FRECUENTA⨝GUSTA
+- Al menos -> Bar != NULL
+*/
+
+πPersona (((SIRVE⨝GUSTA)⨝(σBar!=NULL(FRECUENTA))))
+  
+---------------------------------- (c) ----------------------------------
+/*
+c. Personas que frecuentan sólo bares que sirven alguna cerveza que les guste. (Asumir que cada
+persona le gusta al menos una cerveza y frecuenta al menos un bar).
+*/
+
+                                                        !!! NO LO ENTENDÍ !!!!
+
+(
+	πPersona (Frecuenta)
+	-
+	πPersona (
+		(
+			πPersona,Bar 
+			(
+				Gusta
+				⨯
+				Sirve
+			) -- cross join (o producto) para obtener todas las combinaciones entre Gusta y Sirve
+			-
+			πPersona,Bar	
+			(
+				Gusta
+				⨝
+				Sirve
+			) -- Bares que sirven alguna cerveza que les gustan a las personas
+		) -- Al restarlo, obtengo los bares que no sirven alguna cerveza que les guste a las personas
+		⨝
+		Frecuenta
+	) -- Personas que frecuentan bares que no sirven cervezas que les gustan
+) -- Personas que frecuentan solo bares que sirven alguna cerveza que les guste
+
+---------------------------------- (d) ----------------------------------
+/*
+d. Personas que no frecuenten ningún bar que sirva una cerveza que les guste.
+*/
+FRECUENTA (Persona, Bar)
+SIRVE (Bar, Cerveza)
+GUSTA (Persona, Cerveza).
+                                                     !!! NO LO ENTENDÍ !!!
+(
+	πPersona (Frecuenta)
+	-
+	πPersona
+	(
+		(
+			Gusta
+
+			⨝
+
+			Sirve
+		) -- Bares que sirven alguna cerveza que les gustan a las personas
+
+		⨝
+
+
+		Frecuenta
+	) -- Personas que frecuentan al menos un bar que sirve alguna cerveza que les guste
+) -- Personas que no frecuentan ningún bar que sirva una cerveza que les guste
+
+---------------------------------- (e) ----------------------------------
+/*
+e. Personas que frecuentan todos los bares. (Asumir que todos los bares sirven al menos una cerveza).
+*/
+πPersona(FRECUENTA ÷ πBar(SIRVE)) /* me quedo con todos los bares que existen y luego me quedo con las personas que los visitan*/
+
+
+
+
+
+
+
+
+
+
 
