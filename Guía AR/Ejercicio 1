@@ -1,1 +1,142 @@
+/*
+ALUMNO (Al#, AlMatricula, AlDNI, AlNombre, Fnac, Sexo, FIng)
+MATERIA (Mat#, Descripcion)
+CURSA (Al#, Mat#)
+CARRERA (Carrera#, Descripcion)
+PROFESOR (Profe#, ProfeNombre, ProfeDNI)
+DICTA (Profe#, Mat#)
+PLAN (Carrera#, Mat#, Año)
+NOTA: Los nombres y las descripciones no se repiten. No hay valores nulos. Sexo puede ser ‘M’ o ‘F’.
+Una materia puede ser dictada por más de un profesor.
+
+e. Mostrar la carrera que tiene más materias.
+f. Listar los alumnos de primer año de cualquier carrera que hayan ingresado antes de 2022.
+*/
+
+π σ ρ τ γ ⨝ 
+
+--------------------- (a) ---------------------
+
+/* 
+a. Listar los nombres de las alumnas mayores de 21 años que cursan todas las materias de la
+carrera ‘Ingeniería Biomédica’ que no son dictadas por el profesor ‘Juan Pérez’.
+
+Condiciones para la tabla... 
+... ALUMNO: year(Fnac)<(year(currente_date)-21) and Sexo='F'
+... CARRERA: Descripcion='IB'
+... PROFESOR: ProfeNombre !='Juan Pérez'
+*/
+
+π AlNombre
+(
+  (σ year(Fnac)-year(currente_date)>21 and sexo='F' (ALUMNO))/* Alumnas mayores a 21 años */
+  ⨝
+  CURSA ÷ πMat#(((Carrera# (σDescripcion='IB'(CARRERA))⨝PLAN) ⨝ (DICTA ⨝ (σProfeNombre != 'Juan Pérez'(PROFESOR))))
+)
+/* Como dice "cursa todas..." hago la división - Me quedo solo con la columna de los ID de las materias - Debe ser de Ing. Bio. */
+/* Junto las tablas de DICTA con profesor, teniendo en cuenta que no quiero al profesor Juan Pérez */ 
+
+--------------------- (b) --------------------- 
+
+/*
+b. Listar los nombres de los alumnos de sexo masculino que están cursando materias de cuarto año en alguna carrera de Ingeniería.
+
+Condiciones para la tabla...
+...ALUMNOS: σSexo='M' and πAlNombre
+...PLAN: σAño=4
+...CARRERA: σDescripcion='Ingeniería'
+*/
+πAlNombre
+(
+  (σSexo='M'(ALUMNO))⨝ CURSA ⨝ (((σDescripcion='Ingeniería')(CARRERA))⨝((σAño=4)(PLAN)))
+)
+
+--------------------- (c) --------------------- 
+/*
+c. Listar los nombres de los profesores que dictan más de una materia en diferentes carreras.
+
+Condiciones para la tabla...
+...PROFESOR: πProfNomb
+*/
+
+πProfNomb(
+          σCantProf#>1(
+              γProf#;count(Prof#)->CantProf#( /*Cant de materias en las que un profesor dicta mas de una materia*/
+                  MateriasMismaCarrera>1(
+                      γProf#,Carrera#;count(Carrera#)->MateriasMismaCarrera( /*Cant de materias dictada por cada profesor en la misma carrera*/
+                          DICTA⨝PLAN)    /*Todas las materias dictadas por profesores*/
+                      )
+                  )
+              )
+          )
+         ⨝PROFESOR 
+)
+
+--------------------- (d) ---------------------
+/*
+d. Listar los nombres de los profesores que dictan más de una materia en la misma carrera.
+Condiciones para la tabla...
+...PROFESOR: πProfNomb
+...PLAN⨝DICTA)
+...γProf#,Carrera#;count(Carrera#)->MateriasMismaCarrera -> ESTO NO LO TERMINO DE ENTENDER!!!
+*/
+
+πProfNomb
+    (σMateriasMismaCarrera>1
+       (γProf#,Carrera#;count(Carrera#)->MateriasMismaCarrera
+          (PLAN⨝DICTA)
+       )
+    )
+    ⨝PROFESOR)
+
+
+	πProfeNombre 
+	( 
+		(
+			γProNumero;count(ProNumero)->cantProNumero //NO ENTIENDO ESTA LINEA :(
+			(σMatMismaCarrera>1 
+					(γProNumero,CarNumero;count(CarNumero)->MatMismaCarrera 
+					  ((Dicta ⨝ Plan)
+					  ) -- Todas las materias dictadas por profesores
+				  ) -- Cantidad de materias dictada por cada profesor en la misma carrera
+			) -- Cantidad de materias dictada por cada profesor en la misma carrera, cuando esa cantidad es mayor a 1
+		) -- Profesores que dictan mas de 1 materia en la misma carrera
+		⨝ (Profesor)
+	) -- Informacion de los profesores que dictan mas de una materia en diferentes carreras
+) -- nombres de los profesores que dictan más de una materia en diferentes carreras.
+
+--------------------- (e) ---------------------
+/*
+e. Mostrar la carrera que tiene más materias.
+- Se debe hacer una junta entre CARRERA y PLAN
+- Tengo que contar cualess la carrera con más materias
+*/
+
+select max(CantMaterias) from (γCarrera#;count(Carrera#)->CantMaterias (PLAN))
+σ max(CantMaterias)(γCarrera#;count(Carrera#)->CantMaterias (PLAN)) <- esto es lo que hubiera hecho yo
+
+τcantMaterias desc 
+(
+	(
+		γCarNumero;count(CarNumero) -> cantMaterias 
+		(
+			πCarNumero (Carrera) ⨝ Plan
+		) -- Todas las materias correspondientes a cada plan
+	) -- Cantidad de materias de cada plan
+) -- Cantidad de materias de cada plan ordenadas descendientemente
+
+--------------------- (e) ---------------------
+/*
+f. Listar los alumnos de primer año de cualquier carrera que hayan ingresado antes de 2022.
+
+Condiciones...
+...PLAN: Año=1(PLAN)
+...ALUMNO: year(FIng)<2022
+*/
+
+(σ year(FIng)<2022 (ALUMNO))⨝(CURSA⨝πMat#(σAño=1(PLAN)))
+
+
+
+
 
