@@ -37,6 +37,7 @@ junta entre artículo y precio
                      σ Valor in(select min(Valor) from "la tabla resultante" union select max(Valor) from "la tabla resultante"
         σ(ArtNom=='X' and year(Desde)==2021 and year(Hasta)==2021)(ARTICULO⨝PRECIO)  //ACA TENGO MIS DUDAS!!
       )
+      
 
 
            
