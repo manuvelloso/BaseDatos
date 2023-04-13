@@ -43,7 +43,7 @@ persona le gusta al menos una cerveza y frecuenta al menos un bar).
 				⨯
 				Sirve
 			) -- cross join (o producto) para obtener todas las combinaciones entre Gusta y Sirve
-			-
+			- (elimina uplas iguales (solo me quedo con uplas que solo estan en la primera tabla))
 			πPersona,Bar	
 			(
 				Gusta
