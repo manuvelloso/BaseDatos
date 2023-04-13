@@ -18,4 +18,5 @@ c. Mostrar todos los nombres de todos los hombres nacidos en 1970 que se casaron
 /* si el hijo es del primer matrionio => su fecha de nacimeinto esta entre las fechas de realización y fin del matrimonio */
 
 σ(FechaNac>=FechaRealización and FechaNac<=FechaFin)(PERSONA⨝MATRIMONIO) /*El problema acá es que no tengo 2 columnas que se llamen igual...*/
+// ademas tienne que ocin. los nombres de madre y padre
 
