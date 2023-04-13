@@ -6,7 +6,7 @@ PROVEEDOR (p#, nombre, domicilio)  */
 
 /* 
 a. Listar los códigos de los elementos que sean partes de un AUTO y que cuesten más de $15.000
-b. Listar los códigos de los elementos que sean provistos por AUTOPARTES SA
+b. Listar los códigos de los elementos que sean provistos por AUTOPARTES SA -> ordenar por elemento y buscar ademas los otros proveedores de esos e#
 c. Listar los códigos de los elementos que sean provistos por algún proveedor del barrio de Congreso
 d. Listar los códigos de los elementos que sean provistos sólo por AUTOPARTES SA */
 
