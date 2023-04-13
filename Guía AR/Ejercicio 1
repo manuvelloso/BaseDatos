@@ -71,7 +71,8 @@ Condiciones para la tabla...
           )
          ⨝PROFESOR 
 )
-
+γ: agrupar
+lista id de profesor y cuenta en cunatas materias esta el profesor
 --------------------- (d) ---------------------
 /*
 d. Listar los nombres de los profesores que dictan más de una materia en la misma carrera.
@@ -118,9 +119,9 @@ select max(CantMaterias) from (γCarrera#;count(Carrera#)->CantMaterias (PLAN))
 τcantMaterias desc 
 (
 	(
-		γCarNumero;count(CarNumero) -> cantMaterias 
+		γCarNumero;count(CarNumero) -> cantMaterias (agrupa por num de carrera)
 		(
-			πCarNumero (Carrera) ⨝ Plan
+			πCarNumero (Carrera) ⨝ Plan 
 		) -- Todas las materias correspondientes a cada plan
 	) -- Cantidad de materias de cada plan
 ) -- Cantidad de materias de cada plan ordenadas descendientemente
