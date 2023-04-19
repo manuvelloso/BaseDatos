@@ -1,0 +1,61 @@
+group: PARCIAL 2018
+description: Practica de Algebra Relacional
+category@es: Universidad Favaloro, FICEN, Base de Datos
+
+
+PELICULA = {
+IdP,Tit,Anio,Pais,dID
+1,Tokio,1990,CHN,11
+2,Nada,2000,CHN,22
+3,Lisboa,1990,ARG,33
+4,Mar,1990,USA,11
+5,Arena,2017,CHL,22
+6,Aire,2017,ARG,33
+7,Fuego,2020,USA,44
+8,Canada,2002,CAN,22
+}
+
+DIRECTOR = {
+dID,Nom,Fnac,Nacionalidad
+11,Tobias,110960,CHN
+22,Mateo,110960,CHN
+33,Camila,110960,USA
+44,Marina,110960,ARG
+55,Alejandro,110960,COL
+66,Steven,110960,ARG
+}
+
+ACTOR = {
+IdA,Nom,Nacionalidad
+1,Mario,USA
+2,Leo,USA
+3,Jennifer,USA
+4,Adam,USA
+5,James,ARG
+6,Nicolas,COL
+}
+
+RESENIA = {
+IdP,Cali
+1,10
+2,5
+3,6
+4,7
+5,8
+6,2
+7,4
+8,10
+}
+
+PERSONAJE = {
+IdA,IdP,NomPer
+1,1,Tokio
+1,5,Leslie
+2,3,Lisboa
+2,4,Pink
+3,5,Arena
+3,6,Blue
+4,7,Groot
+5,5,Holand
+6,6,Tom
+}
