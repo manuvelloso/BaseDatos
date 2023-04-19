@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T13:02:40.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jkSNNaNZtm5xZDaWGfvn" version="21.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-19T13:13:50.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dzlyQ6kcFkg0iCtK98eT" version="21.1.7" type="github" pages="2">
   <diagram name="1" id="DBUjNTDoDJX008VppOZq">
     <mxGraphModel dx="933" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5AN_vRUdDNMjFG2f_xBr" name="2,3,4">
-    <mxGraphModel dx="772" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,6 +438,92 @@
         </mxCell>
         <mxCell id="eD0nzXSyYR44fMU-HURv-85" value="&amp;nbsp;Post: Cliente registrado" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="600" y="439" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-87" value="Comprar Sushi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-88" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1362.5" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-89" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-90" target="eD0nzXSyYR44fMU-HURv-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-90" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-92" target="eD0nzXSyYR44fMU-HURv-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-92" value="Pagar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-94" target="eD0nzXSyYR44fMU-HURv-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-94" value="Confirmar pedido" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-96" target="eD0nzXSyYR44fMU-HURv-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-96" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-98" target="eD0nzXSyYR44fMU-HURv-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="310" />
+              <mxPoint x="1275" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-98" value="Local &lt;br&gt;abierto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-100" target="eD0nzXSyYR44fMU-HURv-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-100" value="Disponibilidad&lt;br&gt;producto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="290" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-102" target="eD0nzXSyYR44fMU-HURv-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-102" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1362.5" y="348" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-104" target="eD0nzXSyYR44fMU-HURv-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-104" value="Hacer&lt;br&gt;pedido" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1382.5" y="380" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-105" target="eD0nzXSyYR44fMU-HURv-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-105" value="Disponibilidad&lt;br&gt;repartidor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1246.25" y="380" width="117.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-109" target="eD0nzXSyYR44fMU-HURv-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-109" value="Cliente&lt;br&gt;registrado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1382.5" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-111" target="eD0nzXSyYR44fMU-HURv-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-111" value="Tener app" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1382.5" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eD0nzXSyYR44fMU-HURv-113" target="eD0nzXSyYR44fMU-HURv-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0nzXSyYR44fMU-HURv-113" value="Disponibilidad&lt;br&gt;de motos/bicis" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="450" width="117.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
