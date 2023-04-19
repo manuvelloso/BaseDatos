@@ -1,0 +1,68 @@
+group: PARCIAL 2016
+description: Practica de Algebra Relacional
+category@es: Universidad Favaloro, FICEN, Base de Datos
+
+
+ELABORA = {
+Lab,Droga
+a,x1
+b,x2
+c,x3
+d,x4
+e,x3
+f,x2
+g,x2
+}
+
+PRODUCE = {
+Lab,Farmaco
+a,y1
+b,y2
+c,y3
+d,y2
+e,y2
+c,y1
+c,y2
+}
+
+VENDE = {
+Farmacia,Farmaco,Precio
+p,y1,100
+q,y2,200
+r,y1,300
+p,y2,400
+q,y3,500
+u,y1,600
+}
+
+COMPUESTA_POR = {
+Farmaco,Droga
+y1,x1
+y2,x2
+y3,x1
+y1,x3
+}
+
+RECETA = {
+IDr,Fecha,Medico,Paciente
+1,11082018,Fischer,Piloto
+2,11082018,Fischer,Jardinero
+3,11082018,Fischer,Fisico
+4,11082018,Fischer,Piloto
+5,11082014,Fischer,Jardinero
+6,11082012,Fischer,Fisico
+7,11082010,Fischer,Piloto
+8,11082011,Fischer,Jardinero
+}
+
+RECETA_FARMACO = {
+IDr,Farmaco
+1,y1
+2,y2
+3,y3
+4,y2
+5,y2
+6,y1
+7,y2
+8,y2
+}
