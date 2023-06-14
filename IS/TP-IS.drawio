@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:24:17.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="p7Na6PJPzKYBPRrUMZvc" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:42:18.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_nRxj6yr7SaAg7LL-R4o" version="21.3.7" type="github">
   <diagram name="Página-1" id="UGzIhZ2Q2g0xv_r_jCem">
-    <mxGraphModel dx="1332" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,26 +73,26 @@
         <mxCell id="8UbmweViUgmfymvdf_ns-26" value="&lt;b&gt;Resultados del reporte&lt;/b&gt;:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Registrar los resultados obtenidos del caso de prueba en un documento, incluyendo los casos exitoso y fallidos.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="530" y="1270" width="480" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-27" value="&amp;nbsp; Caso de prueba: Toma de presentismo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="630" width="440" height="30" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-27" value="&lt;b&gt;Caso de prueba&lt;/b&gt;: Toma de presentismo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="690" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-28" value="&amp;nbsp; Descripción:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="660" width="440" height="30" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-28" value="&lt;b&gt;Descripción&lt;/b&gt;:&amp;nbsp;la asistencia es cargada por el profesor en el aula virtual de la materia correspondiente presente en fechas distintas o ausente en fechas distintas del horario y fecha de la cursada" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="720" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-29" value="&amp;nbsp; Pasos:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="690" width="440" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-29" value="&amp;nbsp; Pasos:&lt;br&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Iniciar sesión al campus virtual con usuario de profesor válido.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Navegar hasta el aula virtual de alguna materia.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Abrir la lista de alumnos activos de la materia&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Tildar aquellos alumnos que estén presentes en la clase&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="780" width="440" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-30" value="&amp;nbsp; Datos de prueba" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="830" width="440" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-30" value="&lt;b&gt;Datos de prueba&lt;/b&gt;:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Cargar presente en fecha distinta a la actual y en horario distinto al horario de la materia&lt;/li&gt;&lt;li&gt;Cargar presente en fecha y horario correspondiente&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="920" width="440" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-31" value="&amp;nbsp; Resultados esperados:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="900" width="440" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-31" value="Resultados esperados:&lt;br&gt;La carga del presentismo en fecha distinto no debería aprobar el test&lt;br&gt;La carga del presentismo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1020" width="440" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-32" value="&amp;nbsp; &amp;nbsp;Ambiente de prueba" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="1040" width="440" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-32" value="&lt;b&gt;Ambiente de prueba&lt;/b&gt;:&lt;br&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Instancia de prueba del campus online para evitar efectos en el entorno del sistema.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1160" width="440" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-33" value="&amp;nbsp; Resultados del reporte" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="1110" width="440" height="70" as="geometry" />
+          <mxGeometry x="1040" y="1240" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-34" value="&amp;nbsp; Caso de prueba: Validación de faltas justificadas&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1500" y="630" width="440" height="30" as="geometry" />
