@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T13:05:10.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="H9hhurPoxVHR92YotEae" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T13:07:46.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YtiuQSAwvmaF55vf8HkA" version="21.3.7" type="github">
   <diagram name="Página-1" id="UGzIhZ2Q2g0xv_r_jCem">
-    <mxGraphModel dx="608" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1332" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,25 +32,25 @@
           <mxGeometry x="1000" y="-70" width="550" height="510" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-13" value="&amp;nbsp;&lt;b&gt; Caso de prueba&lt;/b&gt;: Cambio de nota sin firmante&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="630" width="440" height="30" as="geometry" />
+          <mxGeometry x="40" y="570" width="460" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-14" value="&lt;b&gt;Descripción&lt;/b&gt;: cambiar la nota sin que quede registrado quien hizo la modificación.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="660" width="440" height="30" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-14" value="&lt;b&gt;&amp;nbsp; Descripción&lt;/b&gt;: cambiar la nota sin que quede registrado quien hizo la modificación.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="460" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-15" value="&amp;nbsp; &lt;b&gt;Pasos&lt;/b&gt;:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="690" width="440" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-15" value="&amp;nbsp; &lt;b&gt;Pasos&lt;/b&gt;:&lt;br&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Iniciar sesión al campus virtual con usuario de profesor válido o ayudante&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Navegar hasta el aula virtual de alguna materia.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Calificar tarea ya creada&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Ingresar calificación al campo requerido&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="640" width="460" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-16" value="&lt;b&gt;&amp;nbsp; Datos de prueba&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="830" width="440" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-16" value="&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Datos de prueba:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;n1=A, firmante: profesor&lt;/li&gt;&lt;li&gt;n2=NA, firmante: ayudante&lt;/li&gt;&lt;li&gt;n3=A, firmante: null&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="750" width="460" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-17" value="&lt;b&gt;&amp;nbsp; Resultados esperados:&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="900" width="440" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-17" value="&lt;b&gt;&amp;nbsp; Resultados esperados:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;n1,n2 pasan el test porque tiene firmante&lt;/li&gt;&lt;li&gt;n3 no pasa el test porque no se guardó el firmante&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="860" width="460" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-18" value="&lt;b&gt;&amp;nbsp; &amp;nbsp;Ambiente de prueba:&lt;br&gt;&lt;/b&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Instancia de prueba del campus online para evitar efectos en el entorno del sistema.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1040" width="440" height="80" as="geometry" />
+          <mxGeometry x="40" y="940" width="460" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-19" value="&lt;b&gt;&amp;nbsp; Resultados del reporte:&amp;nbsp;&lt;/b&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Registrar los resultados obtenidos del caso de prueba en un documento, incluyendo los casos exitoso y fallidos.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1120" width="440" height="90" as="geometry" />
+          <mxGeometry x="40" y="1020" width="460" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-20" value="&lt;b&gt;Caso de prueba&lt;/b&gt;: Calificación&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="530" y="720" width="480" height="30" as="geometry" />
