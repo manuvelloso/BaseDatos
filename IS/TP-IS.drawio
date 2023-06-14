@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:52:27.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v4iIEgGs2r-WajlImrgW" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:54:44.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TNJmibT2s5Zo-dVFPIt9" version="21.3.8" type="github">
   <diagram name="Página-1" id="UGzIhZ2Q2g0xv_r_jCem">
-    <mxGraphModel dx="1332" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="608" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
         <mxCell id="8UbmweViUgmfymvdf_ns-34" value="&amp;nbsp; Caso de prueba: Validación de faltas justificadas&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1500" y="630" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-35" value="&amp;nbsp; Descripción:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="8UbmweViUgmfymvdf_ns-35" value="&amp;nbsp; Descripción: Verificar sistema de validación de faltas&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1500" y="660" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-36" value="&amp;nbsp; Pasos:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
