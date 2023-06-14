@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:20:43.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8qSdMzzqVfQg3IFb-lwz" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:22:47.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y4itjYWgoabKGa_MN3Ct" version="21.3.7" type="github">
   <diagram name="Página-1" id="UGzIhZ2Q2g0xv_r_jCem">
-    <mxGraphModel dx="794" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1332" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,46 +53,46 @@
           <mxGeometry x="50" y="1110" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-20" value="&lt;b&gt;Caso de prueba&lt;/b&gt;: Calificación&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="690" width="460" height="30" as="geometry" />
+          <mxGeometry x="530" y="720" width="480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-21" value="&lt;b&gt;Descripción&lt;/b&gt;: Verificar que la calificación del profesor coincida con la configuración en la forma de calificar la tarea." style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="720" width="460" height="60" as="geometry" />
+          <mxGeometry x="530" y="750" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-22" value="&lt;b&gt;&amp;nbsp; Pasos:&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="780" width="460" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-22" value="&lt;b&gt;Pasos:&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;Iniciar sesión al campus virtual con usuario de profesor válido.&lt;/li&gt;&lt;li&gt;Navegar hasta el aula virtual de alguna materia.&lt;/li&gt;&lt;li&gt;Crear la tarea y configurar la opción de calificación deseada (alfabética o numérica)&lt;/li&gt;&lt;li&gt;Ingresar calificación al campo requerido&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="810" width="480" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-23" value="&lt;b&gt;Datos de prueba&lt;/b&gt;: nota de calificación.&amp;nbsp;&lt;br&gt;1&amp;lt;=n1&amp;lt;=10&lt;br&gt;n2&amp;gt;10&amp;nbsp;&lt;br&gt;n3&amp;lt;1&lt;br&gt;n4=A&amp;nbsp;&lt;br&gt;n5=NA (caso válido para tareas configuradas de forma alfabética)&lt;br&gt;n6=@ (caso inválido para tareas configuradas de forma alfabética)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="920" width="460" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-23" value="&lt;b&gt;Datos de prueba&lt;/b&gt;: nota de calificación.&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;1&amp;lt;=n1&amp;lt;=10&lt;/li&gt;&lt;li&gt;n2&amp;gt;10&amp;nbsp;&lt;/li&gt;&lt;li&gt;n3&amp;lt;1&lt;/li&gt;&lt;li&gt;n4=A&amp;nbsp;&lt;/li&gt;&lt;li&gt;n5=NA (caso válido para tareas configuradas de forma alfabética)&lt;/li&gt;&lt;li&gt;n6=@ (caso inválido para tareas configuradas de forma alfabética)&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="940" width="480" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-24" value="Resultados esperados:&amp;nbsp;&lt;br&gt;- n1 aprueba el test en el caso para tareas configuradas de forma numérica&lt;br&gt;- n2, n3 desaprueba el test en el caso para tareas configuradas de forma numérica&lt;br&gt;- n4, n5 aprueba el test en el caso para tareas configuradas de forma alfabética&lt;br&gt;- n6 desaprueba el test en el caso para tareas configuradas de forma alfabética" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1060" width="460" height="140" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-24" value="&lt;b&gt;Resultados esperados&lt;/b&gt;:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;n1 aprueba el test en el caso para tareas configuradas de forma numérica&lt;/li&gt;&lt;li&gt;n2, n3 desaprueba el test en el caso para tareas configuradas de forma numérica&lt;/li&gt;&lt;li&gt;n4, n5 aprueba el test en el caso para tareas configuradas de forma alfabética&lt;/li&gt;&lt;li&gt;n6 desaprueba el test en el caso para tareas configuradas de forma alfabética&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1080" width="480" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-25" value="&amp;nbsp; &amp;nbsp;Ambiente de prueba" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1200" width="460" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-25" value="&lt;b&gt;Ambiente de prueba&lt;/b&gt;:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Instancia de prueba del campus online para evitar efectos en el entorno del sistema.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1190" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-26" value="&amp;nbsp; Resultados del reporte" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1270" width="460" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-26" value="&lt;b&gt;Resultados del reporte&lt;/b&gt;:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Registrar los resultados obtenidos del caso de prueba en un documento, incluyendo los casos exitoso y fallidos.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1270" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-27" value="&amp;nbsp; Caso de prueba: Toma de presentismo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="630" width="440" height="30" as="geometry" />
+          <mxGeometry x="1050" y="630" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-28" value="&amp;nbsp; Descripción:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="660" width="440" height="30" as="geometry" />
+          <mxGeometry x="1050" y="660" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-29" value="&amp;nbsp; Pasos:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="690" width="440" height="140" as="geometry" />
+          <mxGeometry x="1050" y="690" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-30" value="&amp;nbsp; Datos de prueba" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="830" width="440" height="70" as="geometry" />
+          <mxGeometry x="1050" y="830" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-31" value="&amp;nbsp; Resultados esperados:" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="900" width="440" height="140" as="geometry" />
+          <mxGeometry x="1050" y="900" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-32" value="&amp;nbsp; &amp;nbsp;Ambiente de prueba" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="1040" width="440" height="70" as="geometry" />
+          <mxGeometry x="1050" y="1040" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-33" value="&amp;nbsp; Resultados del reporte" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="1110" width="440" height="70" as="geometry" />
+          <mxGeometry x="1050" y="1110" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-34" value="&amp;nbsp; Caso de prueba: Validación de faltas justificadas&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1500" y="630" width="440" height="30" as="geometry" />
