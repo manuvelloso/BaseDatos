@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T13:25:17.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hMS0Yj_53CfD45K-vXKm" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T16:19:58.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MmTDbH9ngTM2ZorbrGgV" version="21.3.7" type="github">
   <diagram name="Página-1" id="UGzIhZ2Q2g0xv_r_jCem">
-    <mxGraphModel dx="1013" dy="2208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1332" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,25 +95,25 @@
           <mxGeometry x="530" y="1830" width="540" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-34" value="&lt;b&gt;&amp;nbsp; Caso de prueba:&lt;/b&gt; Validación de faltas justificadas&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="630" width="440" height="30" as="geometry" />
+          <mxGeometry x="1500" y="630" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-35" value="&lt;b&gt;&amp;nbsp; Descripción:&lt;/b&gt; Verificar sistema de validación de faltas&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="660" width="440" height="30" as="geometry" />
+          <mxGeometry x="1500" y="660" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-36" value="&amp;nbsp; &lt;b&gt;Pasos:&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ol style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Iniciar sesión al campus virtual con usuario secretaria.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Navegar hasta la sección de validación de faltas.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Visualizar lista de alumnos con justificaciones pendientes.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Ingresar a la previsualización de los PDF enviados por los alumnos.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Aceptar o denegar la justifiación.&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="690" width="440" height="130" as="geometry" />
+          <mxGeometry x="1500" y="690" width="520" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-37" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Datos de prueba:&lt;/b&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;A. No hay alumnos con justificaciones pendientes.&lt;br&gt;B. Aceptar justificación.&lt;br&gt;C. Denegar justificación.&lt;br&gt;D. Salir antes de finalizar con el listado de alumnos.&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="810" width="440" height="100" as="geometry" />
+          <mxGeometry x="1500" y="810" width="520" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8UbmweViUgmfymvdf_ns-38" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; Resultados esperados:&lt;/b&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;A. Sin cambios, se pasa el test.&lt;br&gt;B. Justificación registrada.&lt;br&gt;C. Justificación denegada.&lt;br&gt;D. Se guardan los cambios de las justificaciones realizadas.&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="910" width="440" height="130" as="geometry" />
+          <mxGeometry x="1500" y="910" width="520" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-39" value="&lt;p&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Ambiente de prueba&lt;/b&gt;:&amp;nbsp;&lt;/p&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Instancia de prueba del campus online para evitar efectos en el entorno del sistema.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="1040" width="440" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-39" value="&lt;p&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; Ambiente de prueba&lt;/b&gt;:&amp;nbsp;&lt;/p&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Instancia de prueba del campus online para evitar efectos en el entorno del sistema.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1040" width="520" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8UbmweViUgmfymvdf_ns-40" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Resultados del reporte&lt;/b&gt;:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Registrar resultados obtenidos del caso de prueba en un documento, incluyendo los casos exitoso y fallidos.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="1110" width="440" height="70" as="geometry" />
+        <mxCell id="8UbmweViUgmfymvdf_ns-40" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; Resultados del reporte&lt;/b&gt;:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Registrar resultados obtenidos del caso de prueba en un documento, incluyendo los casos exitoso y fallidos.&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1110" width="520" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TyqbZohVA25DvB-m2s0s-1" value="&lt;b&gt;&amp;nbsp; Caso de prueba:&lt;/b&gt;&amp;nbsp;Alta de usuarios&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1570" y="-80" width="440" height="30" as="geometry" />
